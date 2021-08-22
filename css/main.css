@@ -151,7 +151,7 @@ body {
 .section-4 .card-container .card {
   width: 400px;
   height: auto;
-  background: #16161648;
+  background: #201927;
   border-radius: 10px;
 }
 .section-4 .card-container .card img {
@@ -161,6 +161,9 @@ body {
 }
 .section-4 .card-container .card .card-body {
   padding: 20px;
+}
+.section-4 .card-container .card .card-body .btn {
+  width: 100%;
 }
 .section-4 .card-container .card-main {
   transform: scale(1.1);
