@@ -21,6 +21,11 @@
   border: 2px solid #d781ff;
 }
 
+h1 {
+  font-size: 3.7em;
+  text-transform: uppercase;
+}
+
 *, html {
   margin: 0;
   padding: 0;
@@ -48,6 +53,12 @@ body {
 }
 .section-header .container {
   position: relative;
+  height: 100%;
+}
+.section-header .container .header-title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .section-header .video-bg {
   position: absolute;
