@@ -24,3 +24,21 @@ p
     color: rgba(255, 255, 255, 0.7)
     line-height: 1.7em
     // margin: 10px 0 25px 0
+
+
+h5 
+    font-size: 1em
+    color: $lightViolet
+    text-transform: uppercase
+    position: relative
+    width: max-content
+
+    &::after
+        position: absolute
+        content: ""
+        height: 3px
+        width: 3em
+        background: $lightViolet
+        right: -70px
+        top: 50%
+        transform: translateY(-50%)

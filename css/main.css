@@ -50,6 +50,24 @@ p {
   line-height: 1.7em;
 }
 
+h5 {
+  font-size: 1em;
+  color: #d781ff;
+  text-transform: uppercase;
+  position: relative;
+  width: max-content;
+}
+h5::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 3em;
+  background: #d781ff;
+  right: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 *, html {
   margin: 0;
   padding: 0;
@@ -162,8 +180,18 @@ body {
 .section-4 .card-container .card .card-body {
   padding: 20px;
 }
+.section-4 .card-container .card .card-body h5 {
+  margin-bottom: 0.2em;
+}
+.section-4 .card-container .card .card-body h2 {
+  margin-bottom: 10px;
+}
+.section-4 .card-container .card .card-body p {
+  margin: 25px 0 35px 0;
+}
 .section-4 .card-container .card .card-body .btn {
   width: 100%;
+  margin-bottom: 10px;
 }
 .section-4 .card-container .card-main {
   transform: scale(1.1);
