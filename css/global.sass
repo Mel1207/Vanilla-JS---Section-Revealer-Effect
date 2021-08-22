@@ -63,3 +63,51 @@ body
                 margin-bottom: .5em
             p 
                 margin: 10px 0 25px 0
+
+// Section 4
+.section-4
+    .section-title 
+        position: relative
+        font-size: 35px
+        width: max-content
+        margin: auto
+        margin-bottom: 50px
+        color: $lightViolet
+
+        &::before, &::after
+            position: absolute
+            content: ""
+            height: 3px
+            width: 5em
+            background: $lightViolet
+            top: 50%
+            transform: translateY(-50%)
+
+        &::before
+            right: -60%
+
+        &::after
+            left: -60%
+
+    .card-container 
+        display: flex
+        width: 100%
+        align-items: center
+        justify-content: space-between
+            
+        .card
+            width: 400px
+            height: auto
+            background: $secondary-bg
+            border-radius: 10px
+
+            img 
+                height: 15em
+                width: 100%
+                border-radius: 10px 10px 0 0
+
+            .card-body 
+                padding: 20px
+
+        .card-main
+            transform: scale(1.1)
